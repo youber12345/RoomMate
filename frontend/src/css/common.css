@@ -1,0 +1,40 @@
+#header { position: fixed; left: 0; top: 0; width: 100%; background-color: bisque; z-index: 9999; }
+#header .header_wrap { display: flex; justify-content: space-between; align-items: center; max-width: 1517px; height: 81px; margin: 0 auto; }
+#header .header_wrap .rm_logo img { width: 207px; }
+#header .header_wrap .rm_img { display: flex; }
+#header .header_wrap .rm_img img { width: 30px; height: 30px; margin: 0 20px; cursor: pointer; }
+
+.popup_wrap { /*display: none;*/ position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.6); z-index: 1000; width: 100%; height: 100%; }
+.popup_inner { position: absolute; top: 20%; left: 50%; transform: translateX(-50%); background: #fff; max-height: 88%; padding: 40px 20px; border-radius: 8px; overflow: auto; }
+#header .header_wrap .popup_inner img { position: relative; top: -20px; left: 320px; width: 15px; height: 15px; cursor: pointer; }
+
+#footer { border-top: 2px solid #ddd; margin:0 30px; }
+#footer .footer_wrap { display: flex; justify-content: space-between; align-items: center; margin: 20px 0 50px; font-size: 18px; color: #4F3004 }
+#footer .footer_wrap .logo { display: flex; flex-direction: column; justify-content: center; align-items: center; padding-left: 50px; }
+#footer .footer_wrap .logo span { font-size: 25px; font-weight: 700; }
+#footer .footer_wrap .logo img { width: 200px; }
+#footer .footer_wrap .footer_text { line-height: 150%; }
+
+.search_wrap { display: flex; justify-content: center; align-items: center; margin-top: 30px; }
+.search_wrap input { width: 70%; height: 60px; padding: 0 60px; border: 3px solid #000000; border-radius: 50px; font-size: 20px; }
+.search_wrap input::placeholder { text-align: center; font-size: 25px; }
+.search_wrap button { position: relative; right: 60px; top: -3px; width: 40px; height: 40px; cursor: pointer; }
+
+.room_home .menu_list { display: flex; justify-content: center; align-items: center; gap: 100px; margin-top: 30px; }
+.room_home .menu_list .menu { display: flex; justify-content: center; align-items: center; flex-direction: column;  }
+.room_home .menu_list .menu img { width: 60px; height: 60px; border: 1px solid #000000; background: rgb(255, 234, 208); padding: 10px; border-radius: 10px;  cursor: pointer; }
+.room_home .menu_list .menu span { margin-top: 10px; font-weight: 700; }
+.room_home .room_wrap { margin: 30px 150px 100px;}
+.room_home .room_list { display: flex; justify-content: space-between; align-items: center; gap: 50px; }
+.room_home .room_wrap .room_title { margin: 30px 0 20px; font-size: 20px; font-weight: 700; }
+.room_home .room_wrap .room_menu { position: relative; display: flex; flex-direction: column; align-items: flex-start; width: 280px; cursor: pointer; }
+.room_home .room_wrap .room_menu img { width: 280px; height: 186px; }
+.room_home .room_wrap .room_menu div { width: 100%; line-height: 150%; }
+.room_home .room_wrap .room_menu div p { font-size: 14px; }
+.room_home .room_wrap .room_menu div p:nth-child(2) { font-size: 16px; font-weight: 700; }
+.room_home .room_wrap .room_menu div p:nth-child(4) {  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+.room_home .room_wrap .noRoomMenu { height: 200px; border: 1px solid #ddd; }
+.room_home .room_wrap .noRoomMenu p { padding: 0 10px; }
+.room_home .room_wrap .noRoomMenu span { display: flex; justify-content: center; margin: 0 auto; padding: 20px 0;  font-size: 18px; font-weight: 700; border-bottom: 1px solid #ddd; }
+.room_home .room_wrap .noRoomMenu div { margin: 20px 0; }

@@ -1,0 +1,56 @@
+#header .header_wrap .rm_img .chat_img { position: relative; }
+#header .header_wrap .rm_img .alarm_img { position: relative; }
+/* 헤더 알림창 */
+
+
+
+#header .header_wrap .rm_img .alarm { position: absolute; top: 40px; left: -140px; display: none; background: #fff; width: 473px; padding: 20px; }
+/* 스크립트시 on일때 알림창 보여짐 */
+#header .header_wrap .rm_img .alarm.on { display: block; }
+#header .header_wrap .rm_img .flex { display: flex; justify-content: space-between; align-items: center; padding-bottom: 10px; border-bottom: 2px solid #ddd; }
+#header .header_wrap .rm_img .flex .img_wrap { display: flex; align-items: center; font-size: 20px; font-weight: 700; }
+#header .header_wrap .rm_img .flex .img_wrap img { margin-right: 10px; cursor: pointer; }
+#header .header_wrap .rm_img .flex .img_wrap p { margin-left: 20px; }
+
+#header .header_wrap .rm_img .alarm_detail { display: flex; align-items: center; background: #d9d9d9; padding: 10px; margin-top: 20px; border-radius: 5px; }
+#header .header_wrap .rm_img .alarm_detail .post { background: #fff; width: 80px; max-width: 80px; height: 80px; max-height: 80px; border-radius: 8px; }
+#header .header_wrap .rm_img .alarm_detail .post img { width: 100%; height: 100%; margin: 0; border-radius: 8px; }
+#header .header_wrap .rm_img .alarm_detail p { line-height: 170%; margin-left: 10px; }
+#header .header_wrap .rm_img .alarm_detail .user_name { font-size: 18px; font-weight: 700; }
+#header .header_wrap .rm_img .alarm_detail .user_message { width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 16px; }
+#header .header_wrap .rm_img .alarm_detail .message_time { font-size: 10px }
+#header .header_wrap .rm_img .alarm_detail .delete_btn { margin-left: auto; }
+
+/* 헤더 마이페이지 눌럿을때 팝업 */
+/* 로그인 페이지 */
+
+#header .header_wrap .mypage_wrap .login_wrap.on { display: flex; flex-direction: column; }
+#header .header_wrap .mypage_wrap .login_title { font-size: 24px; font-weight: 700; text-align: center; }
+#header .header_wrap .mypage_wrap .input_wrap01 { display: flex; flex-direction: column; }
+#header .header_wrap .mypage_wrap .input_wrap01 input { display: block; width: 350px; padding: 10px; margin-top: 20px;; box-sizing: border-box; border: 1px solid #ddd; border-radius: 4px; color: #222222; font-family: "Noto Sans KR"; font-size: 16px; font-weight: 400; }
+#header .header_wrap .mypage_wrap .input_wrap02 { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; font-size: 12px; color: rgb(119, 119, 119); }
+#header .header_wrap .mypage_wrap .input_wrap02 label { display: flex; align-items: center; gap: 5px; }
+#header .header_wrap .mypage_wrap .input_wrap02 label+span { cursor: pointer; }
+#header .header_wrap .mypage_wrap .input_wrap02 input[type="checkbox"] { zoom: 1.5; }
+#header .header_wrap .mypage_wrap .login_btn { width: 100%; margin-top: 20px; }
+#header .header_wrap .mypage_wrap .login_btn button { background-color:rgb(66, 134, 244); width: 100%; height: 48px; padding: 0 12px; border-radius: 5px; font-size:16px; font-weight: 700; color: #fff }
+#header .header_wrap .mypage_wrap .sns_login { display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 20px; font-size: 14px; color: rgb(35, 37, 39); }
+#header .header_wrap .mypage_wrap .sns_login > div { margin:20px 0 60px 0; }
+#header .header_wrap .mypage_wrap .join_btn { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+#header .header_wrap .mypage_wrap .join_btn span { line-height: 19px; margin-top: 20px; font-size: 13px; color: rgb(35, 37, 39); }
+#header .header_wrap .mypage_wrap .main_btn { border:1px solid rgb(66, 134, 244); width: 100%; height: 48px; padding: 0 12px; margin-top: 20px; border-radius: 5px; font-size:16px; font-weight: 700; color: rgb(66, 134, 244); }
+
+/* 회원가입 페이지 */
+
+#header .header_wrap .mypage_wrap .join_wrap.on { display: flex; flex-direction: column; }
+#header .header_wrap .mypage_wrap .join_title { font-size: 24px; font-weight: bold; text-align: center; margin-bottom: 20px; }
+#header .header_wrap .mypage_wrap .join_mune { display: flex; flex-direction: column; justify-content: center; align-items: center; gap:10px; }
+#header .header_wrap .mypage_wrap .join_mune button { width: 350px; height: 48px; border-radius: 8px; font-size: 16px; font-weight: 700; color: #fff; }
+#header .header_wrap .mypage_wrap .join_mune .naver { background-color: rgb(0, 199, 60); width: 350px; height: 48px; border-radius: 8px; font-size: 16px; font-weight: 700; color: #fff; }
+#header .header_wrap .mypage_wrap .join_mune .kakao { background-color: rgb(255, 232, 0); color: rgb(68, 68, 68); }
+#header .header_wrap .mypage_wrap .join_mune .google { background-color: rgb(244, 244, 244); color: rgb(68, 68, 68); }
+#header .header_wrap .mypage_wrap .join_mune .apple { background-color: rgb(26, 26, 26); }
+#header .header_wrap .mypage_wrap .join_email { padding-top: 30px; margin-top: 20px; border-top: 1px solid #ddd; text-align: center; }
+#header .header_wrap .email_wrap { display: none;}
+
+

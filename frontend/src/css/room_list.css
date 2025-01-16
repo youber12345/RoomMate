@@ -1,0 +1,7 @@
+.room_list { margin-top: 81px; }
+.room_list .search_wrap { padding-top: 20px; }
+.room_list .flex_between { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; margin-top: 20px; border-bottom: 1px solid #ddd; }
+.room_list .flex_between .mg_left { margin-left: 50px; }
+.room_list .flex_between .mg_right { margin-right: 50px; }
+.room_list .flex_between select { padding: 5px 5px; border: 1px solid #000; border-radius: 10px; }
+.room_list .flex_between span { padding: 5px 10px; border: 1px solid #000; border-radius: 10px; }
